@@ -4,8 +4,41 @@
   width: 200px;
   height: 200px;
   object-fit: cover;
-  margin-bottom: 40px;
-  text-align: center;
-  margin-top: 140px;
-  margin-left: 450px;
+  margin-top: 60px;
+}
+
+#about{
+    background-color: #343a40;
+    color: #f9f4ef;
+}
+
+.navbar{
+    background-color: #343a40;
+}
+
+#contact{
+    background-color: #343a40;
+        a {
+            color: #f9f4ef;
+            font-size: 30px;
+            padding-left: 60px;
+        }
+}
+
+#contact{
+    a:hover {
+        color: #ed6663;
+}
+}
+
+.btn-resume {
+    background-color: #ed6663;
+    font-size: 24px;
+    color: #f9f4ef;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-resume:hover{
+    background-color: #ed6680;
 }
