@@ -1,0 +1,80 @@
+#project-first{
+    background-size: cover;
+    background-position: 50% 0%;
+    background-attachment: scroll;
+}
+
+.first-card-general-info{
+    background-color: black;
+
+}
+
+.first-top{
+   padding-bottom: 27.77777777777778rem;
+    background-image: url(https://imgur.com/ZaRAvUQ.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    background-attachment: scroll; 
+}
+
+.summary-card{
+    background-color: lightgrey;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+}
+
+.btn-thesis{
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+  
+.project-part{
+    padding-bottom: 40px;
+    h3, h4 {
+        color: white;
+    }
+}
+
+.summary-part{
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+     h3, h4 {
+        color: white;
+    }
+}
+
+.problem{
+    margin-top: 200px;
+    color: #ec5858;
+    margin-bottom: 70px;
+    h3{
+        margin-bottom: 20px;
+    }
+    h4 {
+        color: black;
+    }
+    i{
+        font-size: 40px;
+        margin-top: 20px;;
+    }
+}
+
+
+.goals{
+    margin-bottom: 70px;
+    h3{
+        margin-bottom: 20px;
+    }
+}
+
+.next-one{
+    background-color: darkgray;
+    color:white;
+    padding: 80px;
+    text-align: center;
+}
+
+.next-project{
+    color:white;
+}

@@ -15,7 +15,7 @@
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://drive.google.com/file/d/16F8To75_-URmeFmPlcGVsRoIWrRK6Ce7/view" download="">
+                    <a target="_blank" class="nav-link" href="https://drive.google.com/file/d/1rD7Fi14X1iZDaznNmJ_Q7AyYsl-7Ityf/view" download="">
                         Resume
                     </a>
                 </li>
@@ -34,22 +34,28 @@
             <section class="h2 lead p-2"> I am a Czech national and fluent in English. Before changing my career focus to become a Full Stack Web Developer, I had a decade of leadership experience turning around unprofitable retail stores in the Czech Republic. My goal is to join a team as a Front-End Web Developer that allows me to expand my expertise and technical skills in combination with my education and my extensive professional experience. I am sure that my most recently acquired technical skills with HTML, CSS, and JavaScript can be the perfect way to build a very successful “online” career as I did in the “offline” world. And for what it’s worth, I can’t wait!</section>
         </div>
 
-        <div id="projects" class=" d-flex flex-row p-5 flex-wrap justify-content-center p-3 align-items-center">
+        <div id="projec" class=" d-flex flex-row p-5 flex-wrap justify-content-around p-3 align-items-center">
+            <%= link_to first_path do %>
             <div class="card m-3" style="width: 30rem;">
                 <img src="https://imgur.com/ZaRAvUQ.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title h2">Project 1</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title h2">Program for high potential employees</h5>
+                  <p class="card-text">How to identify potential leaders internally and train them for success</p>
                 </div>
+                <% end %>
             </div>
+            <%= link_to second_path do %>
             <div class="card m-3" style="width: 30rem;">
                 <img src="https://imgur.com/HycMqLT.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title h2">Project 2</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title h2">ReferIt</h5>
+                  <p class="card-text">Get a referral and meet your profesionnal future</p>
                 </div>
+                <% end %>
             </div>
         </div>
+
+        
 
         <div id="contact" class=" p-3  d-flex flex-row flex-wrap justify-content-center align-items-center"> 
             <a href="https://www.facebook.com/andrea.sabova2/"target="_blank"><i class="fab fa-facebook"></i></a>
