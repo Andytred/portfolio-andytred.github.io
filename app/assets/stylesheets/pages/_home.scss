@@ -49,6 +49,7 @@
 
 .justify{
     text-align: center;
+    
 }
 
 #thesis{
@@ -69,9 +70,22 @@
 .project-part{
     .project{
         text-align: center;
+        font-weight: bold;
     }
     .programc{
         text-align: center;
+        font-weight: bold;
+    }
+    
+}
+
+.statement{
+    padding-top: 40px;
+}
+
+.justify{
+    h4{
+        font-weight: bold;
     }
     
 }
