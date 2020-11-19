@@ -18,7 +18,7 @@
 }
 
 .summary-card{
-    background-color: lightgrey;
+    background-color: #f1f6f9;
     padding-top: 40px;
     padding-bottom: 70px;
     padding-left: 20px;
@@ -32,29 +32,38 @@
 .btn-thesis{
     padding-bottom: 100px;
     border-radius: 10px;
+    background-color: black;
 }
   
 .project-part{
-    padding-bottom: 40px;
+    
     h3, h4 {
-        color: white;
+        color:#343a40;
     }
 }
 
 .summary-part{
     padding-bottom: 40px;
-    margin-bottom: 70px;
-     h3, h4 {
-        color: white;
+
+    
+     h3 {
+        color:#343a40;
+        margin-top: 40px ;
+    }
+
+    h4{
+        color:#343a40;
     }
 }
 
 .problem{
-    margin-top: 200px;
+    
     color: #ec5858;
-    margin-bottom: 70px;
+    
+    
     h3{
         margin-bottom: 20px;
+        margin-right: 60px;
        
     }
     h4 {
@@ -76,8 +85,8 @@
 }
 
 .next-one{
-    background-color: darkgray;
-    color:white;
+    background-color: lightgrey;
+    color:#343a40;
     padding: 80px;
     text-align: center;
 }
@@ -85,3 +94,9 @@
 .next-project{
     color:white;
 }
+
+.first{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
