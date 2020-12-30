@@ -27,8 +27,6 @@
         }
 }
 
-
-
 #contact{
     a:hover {
         color: #ed6663;
@@ -88,4 +86,49 @@
         font-weight: bold;
     }
     
+}
+
+.project-carousel{
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.project-carousel-last{
+    height: 600px;
+    margin-top: -100px;
+    margin-bottom: 60;
+}
+
+.carousel-inner{
+    text-align: center;
+    
+}
+
+#carouselExampleIndicators{
+    background-color: #f4f4f2;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.project-title{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.visit{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.about-me{
+    justify-content: center;
+}
+
+.last-project{
+    margin-bottom: 20px;
 }
