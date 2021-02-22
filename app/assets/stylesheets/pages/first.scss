@@ -4,26 +4,55 @@
     background-attachment: scroll;
 }
 
-.first-card-general-info{
-    background-color: black;
-
+.content{
+    padding-left: 10px;
 }
 
-.first-top{
-   padding-bottom: 27.77777777777778rem;
-    background-color: black;
-    background-size: cover;
-    background-position: 50% 0%;
-    background-attachment: scroll; 
+.summary-part{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+     h3 {
+        color: #ed6663;
+        margin-top: 20px ;
+        
+        
+    }
+
+    h4{
+        color:#343a40;
+        margin-bottom: 20px;
+    }
 }
 
 .summary-card{
-    background-color: #f1f6f9;
+    
     padding-top: 40px;
-    padding-bottom: 70px;
-    padding-left: 20px;
-    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 10px;
+  
 }
+
+.problem{
+    h3{
+        color:#343a40;
+        padding-top: 20px;
+        color: #ed6663;
+    }
+    h4{
+        color: black;
+        padding-top: 10px;
+        padding-right: 30px;
+       
+    }
+    i{
+        font-size: 30px;
+        padding-right: 30px;
+        justify-content: center;
+    }
+}
+
 
 
 
@@ -32,6 +61,7 @@
     border-radius: 10px;
     background-color: black;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
   
 .project-part{
@@ -41,60 +71,28 @@
     }
 }
 
-.summary-part{
-    
 
-    
-     h3 {
-        color:#343a40;
-        margin-top: 20px ;
-    }
-
-    h4{
-        color:#343a40;
-    }
-}
-
-.problem{
-    
-    color: #ec5858;
-    text-align: center;
-    background-color: #fff3e2;
-    
-    
-    h3{
-        
-        color:#343a40;
-        padding-top: 40px;
-       
-    }
-    h4 {
-        color: black;
-         
-    }
-    i{
-        font-size: 40px;
-        margin-top: 20px;;
-    }
-}
 
 
 .goals{
-   background-color: #dbf6e9;
-   text-align: center;
    padding-top: 40px;
    padding-bottom:40px ;
-    h3{
-       padding-bottom: 40px; 
-    }
+   padding-left: 10px;
+   h3{
+       color: #ed6663;
+   }
+   .final{
+       margin-bottom: 20px;
+   }
 }
 
 .next-one{
-    background-color: lightgrey;
+    background-color: #f4f9f9;
     color:#343a40;
-    padding: 80px;
-    text-align: center;
-    
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .next-project{
@@ -124,21 +122,16 @@
 
 .journey{
     height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
 .c-journey{
-    background-color:  #f2efea;
-    text-align: center;
-     padding-top: 40px;
     
-    h4{
-        margin-left: 40px;
-        padding-top: 20px;
-        
-    }
     h3{
-        margin-bottom: 40px;
+       
+        color:#ed6663;
     }
 }
 
@@ -154,7 +147,8 @@
 
 
 .img-diamond{
-    height: 500px;
+    height: 300px;
+    
     
 }
 
@@ -165,9 +159,9 @@
 // }
 
 .diamond{
-   
     h4{
         margin-right: 40px;
+        
     }
     img{
         margin-right: 60px;
@@ -175,10 +169,12 @@
 }
 
 .double-diamond{
-    background-color: #f2efea;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 20px;
-    text-align:center;
+    h3{
+        color: #ed6663; 
+    }
+   
 }
 
 .pro{
