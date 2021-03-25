@@ -15,23 +15,22 @@
     
      h3 {
         color: #ed6663;
-        margin-top: 20px ;
+        margin-top: 40px ;
+        margin-bottom: 40px;
         
         
     }
 
     h4{
         color:#343a40;
-        margin-bottom: 20px;
+        line-height: 1.4;
+       
     }
 }
 
 .summary-card{
-    
     padding-top: 40px;
-    padding-bottom: 40px;
     padding-left: 10px;
-  
 }
 
 .problem{
@@ -75,14 +74,21 @@
 
 
 .goals{
-   padding-top: 40px;
+ 
    padding-bottom:40px ;
    padding-left: 10px;
    h3{
        color: #ed6663;
+        padding-bottom:40px ;
+   }
+   h4{
+       line-height: 1.4;
    }
    .final{
        margin-bottom: 20px;
+   }
+   .create{
+       padding-bottom: 10px;
    }
 }
 
@@ -121,8 +127,9 @@
 }
 
 .journey{
-    height: 500px;
-    margin-top: 20px;
+    width: 80rem;
+    
+    
     margin-bottom: 20px;
     
 }
@@ -132,6 +139,7 @@
     h3{
        
         color:#ed6663;
+        margin-bottom: 40px;
     }
 }
 
@@ -147,25 +155,18 @@
 
 
 .img-diamond{
-    height: 300px;
-    
-    
+    width: 60rem;
+    object-fit: cover;
+    background-size: cover;
 }
 
-// .img-diamond:hover {
-//   -ms-transform: scale(1.2); /* IE 9 */
-//   -webkit-transform: scale(1.2); /* Safari 3-8 */
-//   transform: scale(1.2); 
-// }
 
 .diamond{
     h4{
         margin-right: 40px;
         
     }
-    img{
-        margin-right: 60px;
-    }
+    
 }
 
 .double-diamond{
@@ -173,16 +174,56 @@
     padding-top: 20px;
     h3{
         color: #ed6663; 
+        margin-bottom: 40px;
+    }
+    h4{
+        margin-bottom: 40px;
     }
    
 }
 
 .pro{
-    width: 400px;
+    width: 50rem;
     padding-right: 20px;
     
 }
 
 .next{
     padding-top: 40px;
+}
+
+
+.employee{
+    width: 42rem;
+     
+    object-fit: cover;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.program{
+    line-height: 1.4;
+}
+
+.thesis{
+    padding-bottom: 40px;
+}
+
+.viewing{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pers{
+    padding-top: 40px;
+}
+
+.main-img{
+    margin-top: 120px;
+}
+
+.testimonial{
+    padding-top: 10px;
+    
 }

@@ -1,15 +1,73 @@
 // Specific CSS for your home-page
-.img-me{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-top: 60px;
+body {
+	background :#f9f4ef; /* fallback for old browsers */
+	background: #f9f4ef;/* 	Chrome 10-25, Safari 5.1-6 */
+	background:#f9f4ef; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.picture{
+    width: 60%;
+    height: 580px;  
+    object-fit: cover;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+#junior{
+    color: #f9f4ef;
+    
+}
+
+
+.navbar-brand{
+    color: #ed6663;   
+    text-decoration: none;
+    font-family: "Nunito", "Helvetica", "sans-serif";
+}
+    
+
+
+.navbar{
+    margin-bottom: 1000px;
+}
+
+
+
+.navbar-toggler{
+    margin-left: 278px;
+}
+
+.navbar-nav{
+   
+    font-size: 20px;
+}
+
+#navbarNav{
+   a{
+       color: #ed6663; 
+   }
+        
+    
 }
 
 #about{
-    background-color: #343a40;
-    color: #f9f4ef;
+   
+    color: #343a40;
+    section{
+        font-weight: normal;
+    font-size: medium;
+    }
+    h1{
+        justify-content: center;
+       
+    }
+    h4{
+        font-weight:lighter;
+        font-size: 20px;
+        line-height: 1.4;
+    }
 }
 
 .navbar{
@@ -17,14 +75,19 @@
 }
 
 #contact{
-    background-color: #343a40;
+    
         a {
-            color: #f9f4ef;
-            font-size: 30px;
+            color: #343a40;
+            font-size: 50px;
+          
         }
-        .fab{
-            padding-right: 40px;
+        .fa-linkedin{
+            margin-right: 30px;
         }
+        .fa-github{
+            margin-right: 30px;
+        }
+        
 }
 
 #contact{
@@ -33,17 +96,29 @@
 }
 }
 
-.btn-resume {
-    background-color: #ed6663;
-    font-size: 24px;
-    color: #f9f4ef;
-    border: none;
-    border-radius: 6px;
+
+
+.cv{
+    a{
+        color:#ed6663;
+    border-color: #ed6663;
+    border-radius: 40px;
+    padding: 15px; 
+    margin-top: 25px;
+    }
+     
+   
 }
 
-.btn-resume:hover{
-    background-color: #ed6680;
+.cv{
+    a:hover{
+        color:lightgrey;
+        border-color: lightgrey;
+    }
 }
+
+
+
 
 .justify{
     text-align: center;
@@ -143,3 +218,5 @@
         color:#ed6663;
     }
 }
+
+                                                                                                                                 
