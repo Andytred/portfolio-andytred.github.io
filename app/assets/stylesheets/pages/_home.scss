@@ -7,12 +7,44 @@ body {
 
 
 .picture{
-    width: 60%;
-    height: 580px;  
+    // width: 60%;
+    // height: 580px;  
+    // object-fit: cover;
+    // background-size: cover;
+    // padding-top: 150px;
+    // padding-bottom: 30px;
+
+    width: 24%;
+   
+    height: 301px;
     object-fit: cover;
-    background-size: cover;
-    padding-top: 150px;
-    padding-bottom: 30px;
+    filter: brightness(100%);
+    border-radius: 40px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 34vh) {
+  .picture {
+    min-width: 34vh;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 30px) {
+  .picture {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .picture {
+    min-width: 24%;
+  }
 }
 
 #junior{

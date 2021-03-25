@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get 'first', to: 'pages#first'
   get 'second', to: 'pages#second'
   get 'third', to: 'pages#third'
+  get 'fourt', to: 'pages#fourt'
+  get 'fifth', to: 'pages#fifth'
 end

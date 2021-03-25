@@ -70,8 +70,8 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  background-image: image-url('chc.jpg');
-  height: 180px;
+ 
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,6 +130,51 @@
 
 .breakfast:hover{
   background-color: white;
-  color: black;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))
+  color: #f9f4ef;
+  background-image: linear-gradient(rgba(8, 10, 34, 0.171), rgba(8, 10, 34, 0.171))
 }
+
+
+
+.first-card{
+   background-image: image-url('main_im.png');
+   filter: brightness(60%);
+   h3{
+     color: black;
+     text-align: center;
+     font-weight: bold;
+   }
+   }
+   
+
+.second{
+   background-image: image-url('chcc.jpg');
+   filter: brightness(60%);
+   h3{
+     color: black;
+     text-align: center;
+     font-weight: bold;
+   }
+  
+}
+
+.third{
+   background-image: image-url('refert.png');
+    filter: brightness(60%);
+   h3{
+     color: black;
+     text-align: center;
+     font-weight: bold;
+   }
+}
+
+.fourth{
+  background-image: image-url('andrea.png');
+  filter: brightness(60%);
+   h3{
+     color: black;
+     text-align: center;
+     font-weight: bold;
+   }
+}
+
