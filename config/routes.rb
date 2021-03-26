@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'third', to: 'pages#third'
   get 'fourt', to: 'pages#fourt'
   get 'fifth', to: 'pages#fifth'
+  get 'sixth', to: 'pages#sixth'
+
 end
