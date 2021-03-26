@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark d-flex justify-content-between">
+<nav class="navbar navbar-expand-lg fixed-top d-flex justify-content-between" style="background-color: #343a40">
   <div>
     <a class="navbar-brand" style="color: #ed6663;" href="/">Andrea Tredrea</a>
-    <h4 class="navbar-brand" href="/">Junior Web Designer</h4>
+    <h4 class="navbar-brand" href="/" style="color: #f4f9f9">Junior Web Designer</h4>
   </div>
   <div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,6 +9,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">About Me</a>
+        </li>
        
         <li class="nav-item">
           <a class="nav-link" href="/second">Projects</a>
@@ -75,9 +78,11 @@
         <div class="summary-part">
             <h3><strong>Design<strong></h3>
             <h4 style="font-weight: normal">Before jump in and start coding I made a design of a mobile application in Figma
-            <div class="h-100 p-2 d-flex fl">
-                <%= image_tag "referit.png", :class => "journey img-fluid justify-content-center pers" %>
+            
+            <div  class="h-100 p-2 d-flex flex-column justify-content-center align-items-center">
+              <%= image_tag "referit.png", :class => "img-fluid me justify-content-center" %>
             </div>
+            
             <h3><strong>Usability testing</strong></h3>
             <h4 style="font-weight: normal">To confirm the usability we ran a user test with two other students</h3>
     </div>    
