@@ -43,7 +43,7 @@ body {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .picture {
-    min-width: 24%;
+    min-width: 37%;
   }
 }
 
@@ -67,9 +67,9 @@ body {
 
 
 
-.navbar-toggler{
-    margin-left: 278px;
-}
+// .navbar-toggler{
+//     margin-left: 278px;
+// }
 
 .navbar-nav{
    
@@ -84,6 +84,11 @@ body {
     
 }
 
+#navbarNav{
+   a:hover{
+       color: white; 
+   }
+   }
 #about{
    
     color: #343a40;
