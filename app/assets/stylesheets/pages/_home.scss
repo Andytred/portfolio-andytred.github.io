@@ -16,12 +16,12 @@ body {
 
     width: 24%;
    
-    height: 301px;
+    height: 360px;
     object-fit: cover;
     filter: brightness(100%);
     border-radius: 40px;
-    margin-top: 150px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -29,7 +29,7 @@ body {
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 34vh) {
   .picture {
-    min-width: 34vh;
+    min-width: 30vh;
   }
 }
 
@@ -43,7 +43,7 @@ body {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .picture {
-    min-width: 37%;
+    min-width: 45%;
   }
 }
 
@@ -200,32 +200,6 @@ body {
     
 }
 
-.project-carousel{
-    height: 400px;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    border-radius: 20px;
-}
-
-.project-carousel-last{
-    height: 600px;
-    margin-top: -100px;
-    margin-bottom: 60;
-}
-
-.carousel-inner{
-    text-align: center;
-    
-}
-
-#carouselExampleIndicators{
-    background-color: #f4f4f2;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
-}
 
 .project-title{
     margin-top: 20px;
@@ -239,6 +213,7 @@ body {
 
 .about-me{
     justify-content: center;
+   
 }
 
 .last-project{
