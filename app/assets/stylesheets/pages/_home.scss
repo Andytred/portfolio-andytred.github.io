@@ -14,7 +14,7 @@ body {
     // padding-top: 150px;
     // padding-bottom: 30px;
 
-    padding-top: 40px;
+ 
     margin-bottom: 40px;
 }
 
@@ -197,7 +197,7 @@ body {
 }
 
 #more{
-    color: #343a40;;
+    color: #343a40;
     font-weight: bold;
     font-size: 30px;
     padding-top: 40px;
@@ -207,4 +207,9 @@ body {
     }
 }
 
-                                                                                                                                 
+#next{
+    a:hover{
+       color: black; 
+    }
+    
+}                                                                                                                               
